@@ -150,5 +150,35 @@ public class CrudIdioma extends Crud
         return idiomas;
     }
     
-    
+//     public ArrayList<String> obtenerTodosIsos(String idioma)
+//    {
+//        ArrayList<String> isos = new ArrayList<>();
+//        
+//        String consulta = "SELECT * FROM idioma WHERE nombre='"+idioma"'";
+//       // Idioma idioma = null;
+//        String iso;
+//        //String nombre;
+//        
+//        try 
+//        {
+//            ResultSet rs = this.conexion.getStatement().executeQuery(consulta);
+//            while(rs.next())
+//            {
+//                iso = rs.getString("iso");
+//                isos.add(iso);
+//                //nombre = rs.getString("nombre");
+//                
+//              //  idioma = new Idioma(iso, nombre);
+//                //idiomas.add(idioma);                
+//            }
+//            
+//        } catch (SQLException e) 
+//        {
+//            return null;
+//        }
+//        
+//        return isos;
+//    }
+//    
+//    
 }
